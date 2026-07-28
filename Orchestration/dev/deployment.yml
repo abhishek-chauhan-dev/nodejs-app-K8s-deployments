@@ -19,4 +19,6 @@ spec:
         image: ghcr.io/abhishek-chauhan-dev/node-app:c1412ea390b2fbdedbb1dccf9e4a9fcf90d85300
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+        - name: ghcr-secret
         
