@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: node
-        image: ghcr.io/abhishek-chauhan-dev/node-app:757afc0e1f7576b083cf1dec05d5648996001155
+        image: ghcr.io/abhishek-chauhan-dev/node-app:9c013ae448363192f47cf01b93b6985753dc9ffd
         ports:
         - containerPort: 8080
       imagePullSecrets:
